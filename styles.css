@@ -4,25 +4,25 @@
     box-sizing: border-box;
 }
 
+
 canvas{
-    position:absolute;
     background:white;
+    margin: 0 auto;
+    overflow: scroll;
 }
 
 .generate{
     cursor: pointer;
     outline: none;
     border: none;
-    position:absolute;
-    bottom:5%;
-    z-index:10;
-    left:25.5em;
-    transform:translate(-50%,0);
+    position: relative;
+    top: -100px;
+    display: block;
+    margin: 0 auto;
     padding:20px 30px;
     border-radius: 50px;
     background: brown;
     color: white;
     font-size: 20px;
-    width: 300px;
     overflow: hidden;
 }
